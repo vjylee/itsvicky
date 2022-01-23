@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+
+}
+
+.home .about .skills .my-site .contact{
+    padding-top: 86px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.max_width{
+    max-width: 1300px;
+    padding:0 20px;
+    margin:auto;
+}
+
+.section{
+    padding: 100px 0;
+}
+
+.about, .skills, .my-site, .contact, footer{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.about .title,
+.skills .title, 
+.my-site .title,
+.contact .title{
+    position: relative;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 30px 50px 100px 10%;
+    padding-bottom: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.about .title::before,
+.skills .title::before,
+.my-site .title::before,
+.contact .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width:160px;
+    height: 3px;
+    background-color: white;
+    transform: translate(-50%);
+}
+
+.about .title::after,
+.skills .title::after,
+.my-site.title::after,
+.contact .title::after{
+    content:"";
+    position: absolute;
+    bottom: -38px;
+    left: 50%;
+    font-size: 20px;
+    color: gold;
+    padding: 5px;
+    background-color: white;
+    transform: translate(-50%);
+}
+
+.about .about-content,
+.skills .skills-content,
+.my-site .my-site-content,
+.contact .contact-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+

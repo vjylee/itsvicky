@@ -1,0 +1,48 @@
+.about{
+    padding: 100px 0;
+    transition: all 0.3s ease;
+}
+
+.about .title::after{
+    font-family: 'Nunito Sans', sans-serif;
+    content: "Who I am"
+}
+
+.about .about-content{
+    margin-bottom: 100px;
+}
+
+.about .about-content .left{
+    width: 20%;
+}
+
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin-left: 50%;
+    border-radius: 6px;
+}
+
+.about .about-content .right{
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.about .about-content .right .about-text,
+.about .about-content .right .about-skills{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .about-skills span{
+    color: black;;
+}
+
+.about .about-content .right p{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}

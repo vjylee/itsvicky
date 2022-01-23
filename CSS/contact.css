@@ -1,0 +1,123 @@
+.contact{
+    color: black;
+    background-color: white;
+    padding-bottom: 50px;
+    padding: 100px 0;
+    transition: all 0.3s ease;
+}
+
+.contact .title{
+    padding-top: 40px;
+    margin-bottom: 120px;
+    color: black;
+}
+
+.contact .title::before{
+    background-color: black;
+}
+
+.contact .title::after{
+    content: "How to contact me";
+    background-color: white;
+}
+
+.contact .contact-content .column{
+    width: 45%;
+}
+
+.contact .contact-content .contact-text{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.contact .contact-content p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.contact .contact-content .left .icons{
+    margin: 15px 0;
+}
+
+.contact .contact-content .icons-content{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.contact .contact-content .icons-content i{
+    margin-right: 20px;
+    font-size: 25px;
+    color: steelblue;
+}
+
+.contact .contact-content .icons-content .info .head{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.contact .contact-content .fields{
+    display: flex;
+}
+
+.contact .contact-content .field,
+.contact .contact-content .fields .field{
+    height: 40px;
+    width:100%;
+    margin-bottom: 15px;
+}
+
+.contact .contact-content .right{
+    margin-bottom: 50px;
+}
+
+.contact .contact-content .right .content-area{
+    height: 80px;
+    width: 100%;
+}
+
+.contact .right form.name{
+    margin-right: 10px;
+}
+
+.contact .right form .email{
+    margin-left: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .content-area textarea{
+    height: 100%;
+    width:100%;
+    border: 1px solid steelblue;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.contact .right form .content-area textarea{
+    padding-top:10px;
+    resize: none;
+}
+
+.contact .right form .button{
+    height: 40px;
+    width: 120px;
+}
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid steelblue;
+    background-color: steelblue;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.contact .right form .button button:hover{
+    color: steelblue;
+    background:none;
+}

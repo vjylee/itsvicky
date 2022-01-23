@@ -1,0 +1,35 @@
+.home{
+    display: flex;
+    background: url("C:/Users/Jayoon/Desktop/CODE/Jayoonpage/CSS/images/IMG_1646.JPG") no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    min-height: 500px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+
+}
+
+.home .home-section .text-1{
+    font-size: 30px;
+    color: rgb(29, 141, 104);
+}
+
+.home .home-section .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    
+}
+
+.home .home-section .text-3{
+    font-size: 40px;
+    color: white;
+}
+
+.home .home-section .text-3 span{
+    color: gold;
+    font-weight: 500;
+}
