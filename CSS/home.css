@@ -15,7 +15,7 @@
 
 .home .home-section .text-1{
     font-size: 30px;
-    color: rgb(255, 238, 0);
+    color: rgb(255, 255, 255);
 }
 
 .home .home-section .text-2{
@@ -30,6 +30,6 @@
 }
 
 .home .home-section .text-3 span{
-    color: gold;
+    color: rgb(255, 242, 123);
     font-weight: 500;
 }
