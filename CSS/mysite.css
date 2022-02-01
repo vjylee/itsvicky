@@ -50,7 +50,7 @@
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid lightblue;
+    border: 5px solid rgba(255, 246, 161, 0.582);
     transition: all 0.3s ease;
 }
 
